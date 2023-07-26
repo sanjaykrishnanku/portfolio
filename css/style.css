@@ -442,7 +442,7 @@ h4.white {
     box-shadow: 2px 2px 9px 3px rgba(195, 195, 195, 0.52);
     background: #d6d6d6;
 }
-    
+
 .pos-grid-agileinfo h5 {    
     font-family: 'Cinzel Decorative', cursive;  
     font-size: 24px;    
@@ -451,7 +451,7 @@ h4.white {
     text-align: right;  
     margin-top: 1em;    
 }   
-    
+
 .about-left-w3layouts h6 {  
     margin-bottom: 0.5em;   
     letter-spacing: 1px;    
@@ -459,13 +459,13 @@ h4.white {
     color: var(--primary-color-sanjay); 
     text-transform: capitalize; 
 }   
-    
+
 .about-info-w3-agileits p { 
     font-size: 16px;    
     line-height: 28px;  
     color: #7b7b7b; 
 }   
-    
+
 .progress { 
     height: 10px;   
     margin-bottom: 0em; 
@@ -476,7 +476,7 @@ h4.white {
     -ms-border-radius: 0;   
     border-radius: 0;   
 }   
-    
+
 .about-left-w3layouts h6 span { 
     float: right;   
     font-size: 0.9em;
@@ -720,7 +720,43 @@ h5.sub-hdg-agileits {
     padding-left: 10px;
 }
 
+.s-m-links-container{
+    display: flex;
+    flex: row;
+    justify-content:center;
+}
 
+
+.instagram-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 140px; 
+    margin: 0 auto; 
+    margin-top: 20px;
+    gap: 20px;
+  }
+  
+  .instagram-icon img {
+    max-width: 100%;
+    height: auto; 
+  }
+  
+  /* Responsive styles using media queries */
+  /* Adjust the styles when the screen width is 768px or less */
+  @media (max-width: 768px) {
+    .instagram-icon {
+      max-width: 140px; /* Reduce the max-width */
+    }
+  }
+  
+  /* Adjust the styles when the screen width is 480px or less */
+  @media (max-width: 480px) {
+    .instagram-icon {
+      max-width: 140px; /* Further reduce the max-width */
+    }
+  }
+  
 /*--// work --*/
 
 
